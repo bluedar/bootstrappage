@@ -1,0 +1,181 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  font-family: 'Noto Sans KR',Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aside button:first-child {background: url('../img/kaka-link.png') no-repeat center center;}
+.aside button:last-child {background: url('../img/go-top.png') no-repeat center center;}
+
+.mainMenu > li > a {
+  font-weight:700px;
+  font-family: 'Braah One', sans-serif;
+  margin-top:10px;
+  color:#000;
+}
+.mainMenu > li:last-child > a {
+  font-size: 14px;
+}
+.mainMenu .dropdown-item {
+  color:#666;
+  font-size: 70%;
+}
+
+.banner_in a {
+  color:#ffffff;
+  text-shadow: 0px 0px 3px #e7ffa3;
+}
+
+.banner { background:url('../img/2023_2_ban2.jpg') no-repeat center center;}
+.banner2 {background:url('../img/rose_mist.jpg') no-repeat center center;}
+
+.visual {}
+.visual_in {
+  height:600px;
+  background:url('../img/mv_5.jpg') no-repeat center center /cover;
+  transition:0.3s;
+}
+
+.card {background:#F8F8F8;}
+
+.section8 a{
+  color:#000;
+  cursor: pointer;
+}
+
+.section8 a:hover {
+  
+}
+
+
+
+/* 1199px 미만 */
+@media(max-width:1199px){
+  .section4 {border-top:1px solid #ccc; padding-top:80px;}
+}
+
+/* 991px 미만 */
+@media(max-width:991px){
+  .visual_in {
+    height:400px;
+  }
+}
+
+.text_wrap {
+  
+}
+
+.text-in {
+  
+}
+
+.text-in h2 {
+  display:inline-block;
+  border: 2px solid #bbb;
+  font-size: 16px;
+  padding:5px 10px;
+}
+
+.text-in {
+  font-size:35px;
+  font-weight:600;
+}
+
+section {
+  margin: 80px 0;
+}
+
+section img {
+  width:100%
+}
+section p {
+  font-weight: 300;
+  color: #000;
+  text-align: center;
+}
+section strong {
+  font-weight: bold;
+}
+section h2 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight:300px;
+}
+section a {
+  text-decoration: none;
+}
+
+.banner_in {
+   height:400px; 
+}
+.banner_in h2 {
+  text-align: left;
+}
+
+.banner2 .banner_in h2 {
+  color:#daffb0;
+  text-shadow: 0px 0px 2px #ff3aff;
+}
+
+.banner2 a {
+  color:#e7ffaf;
+  font-weight: bold;
+  text-shadow: 0px 0px 2px #ff3aff;
+
+}
+
+.banner_in i {
+  font-size: 32px;
+}
+
+
+
+.section6 {
+  margin-top: 0;
+  padding-top:80px;
+}
+
+
+  
+
+
+footer {
+  background: #2E2E2E;
+  font-size: 12px;
+  word-spacing: 0px;
+  color:#fff;
+  
+}
+footer.row {--bs-gutter-x: 1.2rem;}
+
+
+footer div {border:#000}
+
+footer div .right p {
+  text-align: right;
+}
+
+/* 768px 미만 */
+@media(max-width:768px){
+  .visual_in {
+    height:400px;
+  }
+  
+}
+.row {margin-right:0; margin-left:0;}
+.row > * {margin-right:0; margin-left:0;}
